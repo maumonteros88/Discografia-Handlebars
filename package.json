@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maumonteros88/discografia-ajax.git"
+    "url": "git+https://github.com/maumonteros88/dDiscografia-Handlebars"
   },
   "author": "Monteros Jorge Mauricio",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maumonteros88/discografia-ajax/issues"
+    "url": "https://github.com/maumonteros88/Discografia-Handlebars/issues"
   },
-  "homepage": "https://github.com/maumonteros88/discografia-ajax#readme",
+  "homepage": "https://github.com/maumonteros88/Discografia-Handlebars#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2"
