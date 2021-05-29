@@ -1,0 +1,94 @@
+{
+    "discos": [
+        {
+            "artista": "The Beatles",
+            "titulo": "Abbey Road",
+            "lanzamiento": 1968,
+            "tapa": "https://www.udiscovermusic.com/wp-content/uploads/2017/08/Abbey-Road.jpg"
+        },
+        {
+            "artista": "Wos",
+            "titulo": "Caravana",
+            "lanzamiento": 2019,
+            "tapa": "https://indiehoy.com/wp-content/uploads/2019/10/wos-caravana-1200x1200.jpg"
+        },
+        {
+            "artista": "The Rolling Stones",
+            "titulo": "Flashpoint",
+            "lanzamiento": 1991,
+            "tapa": "https://stonesplanetbrazil.com/wp-content/uploads/2017/01/flash.jpg"
+        },
+        {
+            "artista": "Collective Soul",
+            "titulo": "Live",
+            "lanzamiento": 2017,
+            "tapa": "https://direct.rhapsody.com/imageserver/images/alb.281495204/500x500.jpg"
+        },
+        {
+            "artista": "Pearl Jam",
+            "titulo": "Ten",
+            "lanzamiento": 1991,
+            "tapa": "https://img.cdandlp.com/2017/10/imgL/118972369.jpg"
+        },
+        {
+            "artista": "Greta Van Fleet",
+            "titulo": "The Battle at Garden's Gate",
+            "lanzamiento": 2021,
+            "tapa": "https://conurbanblogger.files.wordpress.com/2021/04/descarga-1.jpg?w=640"
+        },
+        {
+            "artista": "Greta Van Fleet",
+            "titulo": "The Battle at Garden's Gate",
+            "lanzamiento": 2021,
+            "tapa": "https://conurbanblogger.files.wordpress.com/2021/04/descarga-1.jpg?w=640"
+        },
+        {
+            "artista": "Lorde",
+            "titulo": "Melodrama",
+            "lanzamiento": 2017,
+            "tapa": "https://plus.cusica.com/wp-content/uploads/2017/12/Lorde-Melodrama.jpg"
+        },
+        {
+            "artista": "The Strokes",
+            "titulo": "The New Abnormal",
+            "lanzamiento": 2020,
+            "tapa": "https://laciclotimia.com/wp-content/uploads/2021/01/The-Strokes-The-New-Abnormal.jpg"
+        },
+        {
+            "artista": "Pearl Jam",
+            "titulo": "Lightning Bolt",
+            "lanzamiento": 2013,
+            "tapa": "https://www.humonegro.com/wp-content/PEARL-JAM-LIGHTNING-BOLT-BG.png"
+        },
+        {
+            "artista": "Queen",
+            "titulo": "A Night at the Opera",
+            "lanzamiento": 1975,
+            "tapa": "https://www.elquintobeatle.com/wp-content/uploads/2015/12/queen-a-night-at-the-opera-1.jpg"
+        },
+        {
+            "artista": "Arcade Fire",
+            "titulo": "Everything Now",
+            "lanzamiento": 2017,
+            "tapa": "http://images.coveralia.com/audio/a/Arcade_Fire-Everything_Now-Frontal.jpg"
+        },
+        {
+            "artista": "AC/DC",
+            "titulo": "AC/DC Live",
+            "lanzamiento": 1992,
+            "tapa": "https://upload.wikimedia.org/wikipedia/en/1/18/ACDCLive_ACDCalbum.jpg"
+        },
+        {
+            "artista": "U2",
+            "titulo": "How to Dismantle an Atomic Bomb",
+            "lanzamiento": 2004,
+            "tapa": "https://lastfm.freetls.fastly.net/i/u/500x500/1a6b0b6a3ee04799c77b90db9d6ec86f.jpg"
+        },
+        {
+            "artista": "Dua Lipa",
+            "titulo": "Future Nostalgia",
+            "lanzamiento": 2020,
+            "tapa": "https://images-na.ssl-images-amazon.com/images/I/71KcaBR6hPL._SL1200_.jpg"
+        }
+    ]
+}
