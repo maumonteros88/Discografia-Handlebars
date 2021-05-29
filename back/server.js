@@ -2,10 +2,9 @@ const express = require("express");
 const exphas = require("express-handlebars");
 const path = require("path");
 const app = express();
-const discos = require("./discos.json");
+const discos = require("../back/discos.json");
 
 const PORT = 3034;
-const index = path.join(__dirname, "../public", "index.html");
 
 app.engine(
   "handlebars",
@@ -15,7 +14,6 @@ app.engine(
   })
 );
 
-console.log(path.join(__dirname, "../views/layouts"));
 app.set("view engine", "handlebars");
 app.set("views", path.join(__dirname, "../views"));
 
@@ -23,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "../public")));
 
 app.get("/", (req, res) => {
-  res.render("home",{titulo:"Welcome"})
+  res.render("home", { titulo: "Welcome" });
 });
 
 app.get("/buscar", (req, res) => {
