@@ -47,14 +47,13 @@ app.get("/buscar", (req, res) => {
   }
 
   if (launch) {
-    result = result.filter(
-      (element) => element.lanzamiento.toString() === launch
+    result = result.filter((element) => 
+    element.lanzamiento.toString() === launch
     );
   }
 
   if (artist && launch) {
-    result = result.filter(
-      (element) =>
+    result = result.filter((element) =>
         element.lanzamiento.toString() === launch &&
         element.artista
           .toLocaleLowerCase()
