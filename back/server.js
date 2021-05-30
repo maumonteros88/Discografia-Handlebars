@@ -25,64 +25,22 @@ app.get("/", (req, res) => {
 });
 
 app.get("/buscar", (req, res) => {
-  let titles = req.query.titles;
-  let artist = req.query.artist;
-  let launch = req.query.launch;
+  let titles = req.query.titles || "";
+  let artist = req.query.artist || "";
+  let launch = req.query.launch || "";
+
   let result = discos.discos;
 
-  if (artist) {
-    result = result.filter((element) =>
+  result = result.filter(
+    (element) =>
       element.artista
         .toLocaleLowerCase()
-        .includes(artist.toString().toLocaleLowerCase())
-    );
-  }
-
-  if (titles) {
-    result = result.filter((element) =>
+        .includes(artist.toString().toLocaleLowerCase()) &&
       element.titulo
         .toLocaleLowerCase()
-        .includes(titles.toString().toLocaleLowerCase())
-    );
-  }
-
-  if (launch) {
-    result = result.filter((element) => 
-    element.lanzamiento.toString() === launch
-    );
-  }
-
-  if (artist && launch) {
-    result = result.filter((element) =>
-        element.lanzamiento.toString() === launch &&
-        element.artista
-          .toLocaleLowerCase()
-          .includes(artist.toString().toLocaleLowerCase())
-    );
-  }
-
-  if (titles && launch) {
-    result = result.filter(
-      (element) =>
-        element.lanzamiento.toString() === launch &&
-        element.titulo
-          .toLocaleLowerCase()
-          .includes(titles.toString().toLocaleLowerCase())
-    );
-  }
-
-  if (titles && launch && artist) {
-    result = result.filter(
-      (element) =>
-        element.lanzamiento.toString() === launch &&
-        element.titulo
-          .toLocaleLowerCase()
-          .includes(titles.toString().toLocaleLowerCase()) &&
-        element.artista
-          .toLocaleLowerCase()
-          .includes(artist.toString().toLocaleLowerCase())
-    );
-  }
+        .includes(titles.toString().toLocaleLowerCase()) &&
+      element.lanzamiento.toString().includes(launch.toString())
+  );
 
   res.render("cards", {
     discos: result,
